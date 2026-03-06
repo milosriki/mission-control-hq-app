@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: #8251EE;
+  --color-brand-hover: #9366F5;
+  --color-brand-light: #A37EF5;
+  --color-brand-subtle: rgba(130, 81, 238, 0.15);
+  
+  --color-neutral-bg1: hsl(240, 6%, 10%);
+  --color-neutral-bg2: hsl(240, 5%, 12%);
+  --color-neutral-bg3: hsl(240, 5%, 14%);
+  --color-neutral-bg4: hsl(240, 4%, 18%);
+  
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A1A1AA;
+  --color-text-muted: #71717A;
+  
+  --color-border-DEFAULT: hsla(0, 0%, 100%, 0.12);
+  --color-border-subtle: hsla(0, 0%, 100%, 0.08);
+  --color-border-strong: hsla(0, 0%, 100%, 0.20);
+  
+  --color-status-success: #10B981;
+  --color-status-warning: #F59E0B;
+  --color-status-error: #EF4444;
+  --color-status-info: #3B82F6;
+  
+  --color-dataviz-purple: #8251EE;
+  --color-dataviz-blue: #3B82F6;
+  --color-dataviz-green: #10B981;
+  --color-dataviz-yellow: #F59E0B;
+  --color-dataviz-red: #EF4444;
+  
+  --box-shadow-glow: 0 0 20px rgba(130, 81, 238, 0.3);
+}
+
 @layer base {
   html {
     color-scheme: dark;
