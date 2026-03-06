@@ -124,7 +124,7 @@ export default async function DashboardPage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-border-subtle">
-                  {agents.map((agent: any) => (
+                  {agents.map((agent: { id: string; name: string; type: string; model: string; status: string }) => (
                     <tr key={agent.id} className="hover:bg-white/5 transition-colors">
                       <td className="py-4 text-xs font-mono text-text-muted">{agent.id.slice(0, 8)}...</td>
                       <td className="py-4 font-medium text-white">{agent.name}</td>
